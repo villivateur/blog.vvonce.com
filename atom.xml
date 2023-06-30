@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kinchin Fong&#39;s Tech World</title>
+  
+  <subtitle>Kinchin Fong&#39;s Tech World</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.vvonce.com/"/>
+  <updated>2023-06-30T07:39:20.499Z</updated>
+  <id>https://blog.vvonce.com/</id>
+  
+  <author>
+    <name>Kinchin Fong</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How to hide &quot;All tools&quot; panel in Adobe Acrobat Reader</title>
+    <link href="https://blog.vvonce.com/2023/06/30/How-to-hide-all-tools-panel-in-adobe-acrobat-reader/"/>
+    <id>https://blog.vvonce.com/2023/06/30/How-to-hide-all-tools-panel-in-adobe-acrobat-reader/</id>
+    <published>2023-06-30T07:16:37.000Z</published>
+    <updated>2023-06-30T07:39:20.499Z</updated>
+    
+    <content type="html"><![CDATA[<p>It annoys me when I upgraded Adobe Acrobat Reader a few days ago. The “All tools” panel keeps showing when I open a new PDF.</p><p>I tried some solutions that tell me to open <code>Edit -&gt; Preferences -&gt; Documents</code> and check <code>Remember current state of Tools pane</code>, but it does not work on the newest version of Acrobat Reader.</p><h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><p>Adobe has admit that the <em>feature</em> cannot be removed. So, the only solution is to go back to an older version. You can just download a previous version of Acrobat Reader, or try:</p><p>Click “Go to old UI” in “File”.</p><p>Then apply the step above.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;It annoys me when I upgraded Adobe Acrobat Reader a few days ago. The “All tools” panel keeps showing when I open a new PDF.&lt;/p&gt;
+&lt;p&gt;I tri
+      
+    
+    </summary>
+    
+    
+      <category term="Adobe" scheme="https://blog.vvonce.com/tags/Adobe/"/>
+    
+  </entry>
+  
+</feed>

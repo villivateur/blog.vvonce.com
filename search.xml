@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>How to hide &quot;All tools&quot; panel in Adobe Acrobat Reader</title>
+      <link href="/2023/06/30/How-to-hide-all-tools-panel-in-adobe-acrobat-reader/"/>
+      <url>/2023/06/30/How-to-hide-all-tools-panel-in-adobe-acrobat-reader/</url>
+      
+        <content type="html"><![CDATA[<p>It annoys me when I upgraded Adobe Acrobat Reader a few days ago. The “All tools” panel keeps showing when I open a new PDF.</p><p>I tried some solutions that tell me to open <code>Edit -&gt; Preferences -&gt; Documents</code> and check <code>Remember current state of Tools pane</code>, but it does not work on the newest version of Acrobat Reader.</p><h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><p>Adobe has admit that the <em>feature</em> cannot be removed. So, the only solution is to go back to an older version. You can just download a previous version of Acrobat Reader, or try:</p><p>Click “Go to old UI” in “File”.</p><p>Then apply the step above.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Adobe </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
