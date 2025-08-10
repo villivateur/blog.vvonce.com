@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.vvonce.com/"/>
-  <updated>2023-06-30T07:39:20.499Z</updated>
+  <updated>2025-08-10T03:47:52.093Z</updated>
   <id>https://blog.vvonce.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Fix embedded Youtube video&#39;s &quot;Sign in to confirm you are not a bot&quot; problem if you are already signed in</title>
+    <link href="https://blog.vvonce.com/2025/08/10/fix-youtube-Sign-in-to-confirm-you-are-not-a-bot-even-if-already-signed-in/"/>
+    <id>https://blog.vvonce.com/2025/08/10/fix-youtube-Sign-in-to-confirm-you-are-not-a-bot-even-if-already-signed-in/</id>
+    <published>2025-08-10T03:28:08.000Z</published>
+    <updated>2025-08-10T03:47:52.093Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><p>Youtube has forced logging in to watch embedded video in other sites, such as Reddit, years ago, as they say, to prevent spam use.</p><p>I’m not talking about how reasonable it is, but to fix a wierd problem, that I have already logged into Youtube, but still face problem watching embedded videos.</p><p>I am using Firefox in Windows 11.</p><h2 id="tl-dr"><a href="#tl-dr" class="headerlink" title="tl, dr"></a>tl, dr</h2><p>Disable Firefox’s Enhanced Tracking Protection for every site that has embedded Youtube videos.</p><p>Just click the shield icon to the left of the address bar, and then turn off the switch.</p><h2 id="Why"><a href="#Why" class="headerlink" title="Why?"></a>Why?</h2><p>Firefox has a strict privacy protect policy by default, to stop sites tracking you.</p><p>That disabled cross-site cookies, so, for example, Reddit cannot use Youtube’s cookie. In result, embedded Youtube will treat you as no logged in guest.</p><p>Chrome or Edge may have some familiar issues, but I did not test them.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;Youtube has forced logging in to watch
+      
+    
+    </summary>
+    
+    
+      <category term="Youtube" scheme="https://blog.vvonce.com/tags/Youtube/"/>
+    
+  </entry>
   
   <entry>
     <title>How to hide &quot;All tools&quot; panel in Adobe Acrobat Reader</title>

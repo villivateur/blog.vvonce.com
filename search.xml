@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Fix embedded Youtube video&#39;s &quot;Sign in to confirm you are not a bot&quot; problem if you are already signed in</title>
+      <link href="/2025/08/10/fix-youtube-Sign-in-to-confirm-you-are-not-a-bot-even-if-already-signed-in/"/>
+      <url>/2025/08/10/fix-youtube-Sign-in-to-confirm-you-are-not-a-bot-even-if-already-signed-in/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><p>Youtube has forced logging in to watch embedded video in other sites, such as Reddit, years ago, as they say, to prevent spam use.</p><p>I’m not talking about how reasonable it is, but to fix a wierd problem, that I have already logged into Youtube, but still face problem watching embedded videos.</p><p>I am using Firefox in Windows 11.</p><h2 id="tl-dr"><a href="#tl-dr" class="headerlink" title="tl, dr"></a>tl, dr</h2><p>Disable Firefox’s Enhanced Tracking Protection for every site that has embedded Youtube videos.</p><p>Just click the shield icon to the left of the address bar, and then turn off the switch.</p><h2 id="Why"><a href="#Why" class="headerlink" title="Why?"></a>Why?</h2><p>Firefox has a strict privacy protect policy by default, to stop sites tracking you.</p><p>That disabled cross-site cookies, so, for example, Reddit cannot use Youtube’s cookie. In result, embedded Youtube will treat you as no logged in guest.</p><p>Chrome or Edge may have some familiar issues, but I did not test them.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Youtube </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>How to hide &quot;All tools&quot; panel in Adobe Acrobat Reader</title>
       <link href="/2023/06/30/How-to-hide-all-tools-panel-in-adobe-acrobat-reader/"/>
       <url>/2023/06/30/How-to-hide-all-tools-panel-in-adobe-acrobat-reader/</url>

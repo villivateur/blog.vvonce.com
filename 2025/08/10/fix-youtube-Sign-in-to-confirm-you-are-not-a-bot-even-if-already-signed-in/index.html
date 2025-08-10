@@ -12,7 +12,7 @@
 
     <title>
         
-        标签 - Kinchin Fong&#39;s Tech World
+        Fix embedded Youtube video&#39;s &#34;Sign in to confirm you are not a bot&#34; problem if you are already signed in - Kinchin Fong&#39;s Tech World
         
     </title>
 
@@ -64,7 +64,7 @@
                     <span>HOME</span>
                 </a>
             </li>
-            <li  class=active >
+            <li >
                 <a href="/tags">
                     <i class="iconfont icon-biaoqian1"></i>
                     <span>TAGS</span>
@@ -85,6 +85,10 @@
             
         </ul>
     </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Background"><span class="toc-text">Background</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#tl-dr"><span class="toc-text">tl, dr</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Why"><span class="toc-text">Why?</span></a></li></ol>
+</div>
     
 </div>
 
@@ -110,59 +114,44 @@
     
     <div class="index-middle">
         <!-- Main Content -->
-        <div id='tag_cloud' class="tags">
-    
-    <a href="#Adobe" title="Adobe" rel="1">Adobe</a>
-    
-    <a href="#Youtube" title="Youtube" rel="1">Youtube</a>
-    
-</div>
-
-<!-- 标签列表 -->
+        
 
 
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="Adobe">
-                    <span class="tag-text">Adobe</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/2023/06/30/How-to-hide-all-tools-panel-in-adobe-acrobat-reader/">
-            <h2 class="post-title">
-                How to hide &quot;All tools&quot; panel in Adobe Acrobat Reader
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+<div class="post-container">
+    <div class="post-title">
+        Fix embedded Youtube video's &quot;Sign in to confirm you are not a bot&quot; problem if you are already signed in
     </div>
-    
-</div>
 
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="Youtube">
-                    <span class="tag-text">Youtube</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/2025/08/10/fix-youtube-Sign-in-to-confirm-you-are-not-a-bot-even-if-already-signed-in/">
-            <h2 class="post-title">
-                Fix embedded Youtube video's &quot;Sign in to confirm you are not a bot&quot; problem if you are already signed in
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    <div class="post-meta">
+        <span class="attr">Post：<span>2025-08-10 11:28:08</span></span>
+        
+        <span class="attr">Tags：/
+        
+        <a class="tag" href="/tags/#Youtube" title="Youtube">Youtube</a>
+        <span>/</span>
+        
+        
+        </span>
     </div>
-    
-</div>
+    <div class="post-content no-indent">
+        <h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><p>Youtube has forced logging in to watch embedded video in other sites, such as Reddit, years ago, as they say, to prevent spam use.</p>
+<p>I’m not talking about how reasonable it is, but to fix a wierd problem, that I have already logged into Youtube, but still face problem watching embedded videos.</p>
+<p>I am using Firefox in Windows 11.</p>
+<h2 id="tl-dr"><a href="#tl-dr" class="headerlink" title="tl, dr"></a>tl, dr</h2><p>Disable Firefox’s Enhanced Tracking Protection for every site that has embedded Youtube videos.</p>
+<p>Just click the shield icon to the left of the address bar, and then turn off the switch.</p>
+<h2 id="Why"><a href="#Why" class="headerlink" title="Why?"></a>Why?</h2><p>Firefox has a strict privacy protect policy by default, to stop sites tracking you.</p>
+<p>That disabled cross-site cookies, so, for example, Reddit cannot use Youtube’s cookie. In result, embedded Youtube will treat you as no logged in guest.</p>
+<p>Chrome or Edge may have some familiar issues, but I did not test them.</p>
 
+        
+        <br />
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+        <div id="lv-container"></div>
+        <div class="giscus"></div>
+    </div>
+</div>
 
     </div>
 </div>
@@ -229,7 +218,7 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.xml"
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="/static/jquery-3.3.1.min.js"></script>
 
